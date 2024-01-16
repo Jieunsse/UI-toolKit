@@ -1,0 +1,35 @@
+.footer {
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+}
+
+.footerContent {
+    margin-left: 600px;
+    margin-right: 600px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+
+.footerItems {
+    font-size: 1.2rem;
+    font-weight: 400;
+    list-style: none;
+    line-height: 3rem;
+}
+
+
+.first {
+
+}
+
+.second {}
+
+.third {}
