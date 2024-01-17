@@ -8,14 +8,20 @@
     bottom: 0;
 }
 
-.footerContent {
-    margin-left: 600px;
-    margin-right: 600px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
 
+.box {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    gap: 10px;
+    place-items: center;
 }
+
+
+.footerContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 
 .footerItems {
@@ -23,6 +29,7 @@
     font-weight: 400;
     list-style: none;
     line-height: 3rem;
+    margin-right: 10px;
 }
 
 
